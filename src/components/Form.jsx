@@ -73,7 +73,7 @@ function Form() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/upload-resume",
+        "https://api-vert-beta.vercel.app/upload-resume",
         formData,
         {
           headers: {
@@ -187,7 +187,7 @@ function Form() {
             Generated Email:
           </h5>
           <div>
-            <pre className="whitespace-pre-wrap text-md font-sans">
+            <pre className="whitespace-pre-wrap text-md text-justify font-sans">
               {generatedEmail}
             </pre>
           </div>

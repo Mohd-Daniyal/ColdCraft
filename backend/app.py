@@ -23,6 +23,11 @@ def upload_resume():
     
     generated_email = generate_email(email_id, "", company_name)
     
+    for filename in os.listdir(resume_directory):
+        file_path = os.path.join(resume_directory, filename)
+        if os.path.isfile(file_path):
+            os.remove(file_path)
+    
     return jsonify({'message': 'Resume uploaded successfully', 'generated_email': generated_email}), 200
 
 
