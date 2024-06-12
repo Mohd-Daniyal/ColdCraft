@@ -14,9 +14,7 @@ ColdCraft is a tool created to help college students create cold emails for job 
 
 - **Email Generation**: The system combines the extracted company information with the user's resume details and generates a well-crafted cold email tailored for the specific company using the Gemini API.
 
-
-   [screen-capture (1).webm](https://github.com/Mohd-Daniyal/ColdCraft/assets/96229438/5b17b612-4504-44dd-9431-9dec125a17d4)
-
+https://cold-craft.vercel.app/
 
 ## Tech Stack
 
