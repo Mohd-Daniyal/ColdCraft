@@ -7,7 +7,7 @@ function App() {
     <div className="App flex justify-center items-center flex-col">
       <h1 className="mt-8 mb-2 font-medium dark:text-white text-4xl">
         <span className="text-transparent text-5xl font-extrabold bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
-          ColdCraft{" "}
+          ColdCraft
         </span>
       </h1>
       <h3 className="mb-8 text-gray-300 text-xl font-bold"><i>Your Personal Cold Email Assistant</i></h3>
